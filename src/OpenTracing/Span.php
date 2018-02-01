@@ -44,7 +44,7 @@ interface Span
      * Sets tags to the Span in key:value format, key must be a string and tag must be either
      * a string, a boolean value, or a numeric type.
      *
-     * As an implementor, consider using "standard tags" listed in {@see \OpenTracing\Ext\Tags}
+     * As an implementor, consider using "standard tags" listed in {@see \OpenTracing\Tags}
      *
      * If the span is already finished, a warning should be logged.
      *
